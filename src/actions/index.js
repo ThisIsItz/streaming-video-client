@@ -33,8 +33,6 @@ export const createStream = formValues => async (dispatch, getState) => {
 
     // Do some programmatic navigation to get the user back to the root route
     history.push('/')
-
-
 }
 
 export const fetchStreams = () => async dispatch => {
